@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/*Fonte Passion One*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+/*Fonte Sriracha*/
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font00: Verdana, Geneva, Tahoma, sans-serif;
+    --font01: 'Sriracha', cursive;
+    --font02: 'Passion One', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    font-family: var(--font00);
+    min-height: 100vh;
+    background-color: #a9a9a9;
+}
+
+header {
+    font-family: var(--font02);
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 4em;
+
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-size: 1.5em;
+
+}
+
+header a, footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    font-family: var(--font01);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 2em;
+    text-align: center;
+}
+
+section > p {
+    padding-top: 50px;
+}
+
+section.default {
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: inset 6px 6px 13px 0px #00000070;
+}
+
+section.img {
+    background-color: #808080;
+    color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section.img > p {
+    display: inline-block;
+    background-color: #00000065;
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 0px #00000090;
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;  
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;   
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+
+}
