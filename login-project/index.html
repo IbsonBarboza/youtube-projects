@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="./style/all.css" media="all">
     <link rel="stylesheet" href="./style/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <title>Login</title>
 </head>
@@ -22,7 +23,25 @@
                 </p>
                 
                 <form action="login.php" method="post">
-
+                    <div class="camp">
+                        <label for="iemail">
+                            <span class="material-icons">login</span>
+                        </label>
+                        <input type="email" name="email" id="iemail" required placeholder="Your E-mail">
+                        <label for="iemail">: E-mail</label>
+                    </div>
+                    <div class="camp">
+                        <label for="ipass">
+                            <span class="material-icons">lock</span>
+                        </label>
+                        <input type="password" name="pass" id="ipass" required placeholder="Your Password">
+                        <label for="ipass">: Password</label>
+                    </div>
+                    <input class="sign-in" type="submit" value="Sign in">
+                    <div class="f-pass">
+                        <a class="f-button" href="#">Forgot Password</a>
+                        <span class="material-icons">mail</span>
+                    </div>
                 </form>
             </div>
         </section>

@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: var(--purple);
+    background-image: linear-gradient(to top, var(--green), var(--purple));
     display: grid;
     justify-content: center;
     align-items: center;
@@ -26,8 +26,8 @@ body {
 
 .login {
     background-color: #fff;
-    width: 250px;
-    height: 500px;
+    width: 300px;
+    height: 510px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 10px #00000079;
@@ -36,4 +36,59 @@ body {
 
 .form {
     padding: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.paragraph {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.camp {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+
+.sign-in {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0px;
+    background-color: var(--green);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sign-in:hover {
+    background-color: var(--purple);
+
+}
+
+.f-pass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.f-button {
+    border: 1px solidd black;
+    background-color: var(--green);
+    text-decoration: none;
+    color: #fff;
+    padding: 7px;
+    border-radius: 15px;
+    font-weight: 600;
+
+}
+
+.f-button:hover {
+    background-color: var(--purple);
 }
