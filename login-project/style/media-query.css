@@ -11,12 +11,17 @@
     .login {
         width: 80vw;
         height: 400px;
-        display: flex;
     }
 
     .img {
-        width: 35vw;
+        width: 30vw;
         height: 100vh;
+        float: left;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -24,13 +29,16 @@
 @media only screen and (min-width: 992px) {
     .login {
         width: 900px;
+        
     }
     
     .img {
         width: 50%;
+        float: right;
     }
 
     .form {
         width: 50%;
+        float: left;
     }
 }
