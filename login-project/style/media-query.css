@@ -1,0 +1,36 @@
+:root {
+    --green: #49a09d;
+    --purple: #5f2c82;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        background-image: linear-gradient(to top, var(--green), var(--purple));
+    }
+    .login {
+        width: 80vw;
+        display: flex;
+
+    }
+
+    .img {
+        width: 35vw;
+        height: 100vh;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .login {
+        width: 900px;
+    }
+    
+    .img {
+        width: 50%;
+    }
+
+    .form {
+        width: 50%;
+    }
+}
