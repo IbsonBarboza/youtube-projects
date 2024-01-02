@@ -94,3 +94,8 @@ body {
     font-weight: 600;
     letter-spacing: 1px;
 }
+
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: #00abf0;
+}
