@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 5%;
+    background-color: seagreen;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.social-media {
+    margin: 0 auto 0 50px;
+}
+
+.social-media a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: .5s;
+}
+
+.social-media a:hover {
+    background: #fff;
+}
+
+.social-media a i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.social-media a:hover i {
+    color: #444;
+}
+
+.nav-bar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    text-shadow: 0 0 10px rgba(0 , 0, 0, .2);
+}
+
