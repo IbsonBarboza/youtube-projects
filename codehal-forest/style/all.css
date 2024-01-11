@@ -13,7 +13,7 @@ header {
     left: 0;
     width: 100%;
     padding: 30px 5%;
-    background-color: seagreen;
+    background-color: transparent;
     display: flex;
     align-items: center;
     z-index: 99;
@@ -66,3 +66,22 @@ header {
     text-shadow: 0 0 10px rgba(0 , 0, 0, .2);
 }
 
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.slider .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slide img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
